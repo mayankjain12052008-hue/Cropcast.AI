@@ -1,0 +1,7 @@
+[functions.gemini-analyze]
+verify_jwt = false
+entrypoint = "./functions/gemini-analyze/index.ts"
+
+[functions.gemini-chat]
+verify_jwt = false
+entrypoint = "./functions/gemini-chat/index.ts"
